@@ -1,28 +1,33 @@
+#include "../main.h"
+
+
+
 /**
  *
- *  * _isupper - check if c is upper
+ *  * main - check the code for ALX School students.
  *
  *   *
  *
- *    * @c: input for alphabet
+ *    * Return: Always 0 (Success)
  *
- *     *
- *
- *      * Return: 1 if its uppercase, 0 if not
- *
- *      */
+ *    */
 
 
 
-int _isupper(int c)
+int main(void)
 
 {
 
-		if (c >= 65 && c <= 90)
+     		char c;
 
-			return (1);
+    			c = 'A';
+ 
+			printf("%c: %d\n", c, _isupper(c));
 
-		else
-			return (0);
+				c = 'a';
+
+			printf("%c: %d\n", c, _isupper(c));
+
+				return (0);
 
 }
