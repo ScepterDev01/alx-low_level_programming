@@ -1,4 +1,4 @@
-#include "../main.h"
+#include main.h
 
 
 
@@ -14,20 +14,17 @@
 
 
 
-int main(void)
-
+int _isupper(int c)
 {
-
-     		char c;
-
-    			c = 'A';
- 
-			printf("%c: %d\n", c, _isupper(c));
-
-				c = 'a';
-
-			printf("%c: %d\n", c, _isupper(c));
-
-				return (0);
-
+	char uppercase ='A';
+	int isupper = 0;
+	for (; uppercase <= 'Z'; uppercase++)
+    {
+	    if (c == uppercase)
+           {
+		   isupper = 1;
+		   break;
+            }
+    }
+	return (isupper);
 }
