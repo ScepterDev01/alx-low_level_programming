@@ -1,4 +1,4 @@
-i#include"main.h"
+#include"main.h"
 
 
 
@@ -19,43 +19,24 @@ i#include"main.h"
  *        * Return: largest number
  *
  *         */
-
-
-
 int largest_number(int a, int b, int c)
+   {
+	   int largest;
 
-{
+	   int(a >= b && a >= c)
+	   {
+		   largest = a;
+	 }
+	   else if (b >= a && b >= c)
+	   {
+		   largest = b;
 
-		int largest;
+           }
+	   else
+           {
+		   largest = c;
 
+           }
 
-
-			if (a >= b && a >= c)
-
-					{
-
-								largest = a;
-
-									}
-
-				else if (b >= a && b >= c)
-
-						{
-
-									largest = b;
-
-										}
-
-					else
-
-							{
-
-										largest = c;
-
-											}
-
-
-
-						return (largest);
-
-}
+	   return(largest);
+  }
