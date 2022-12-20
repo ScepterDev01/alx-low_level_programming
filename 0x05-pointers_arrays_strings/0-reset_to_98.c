@@ -1,29 +1,20 @@
+#include "main.h"
 
-
-
-
-et_to_98 - takes a pointer to an int parameter
-
- *               and updates the value it points to 98
+/**
+ * reset_to_98n - take a pionter to an int as parameter and updates
  *
- *                *
+ * the value it pionts to to 98
  *
- *                 * @n: int parameter
+ * &n: piont to an int
  *
- *                  *
+ * return: nothing
  *
- *                   * Return: Nothing
- *
- *                    */
+ */
 
 
-
- void reset_to_98(int *n)
-
+    reset_to_98(int *n);
 {
-
 		*n = 98;
-
 }
 
 
